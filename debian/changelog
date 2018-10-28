@@ -1,0 +1,23 @@
+qt5-maemo5 (5.2.1+m01+thumb1) experimental; urgency=low
+
+  * just recompiled against Qt 5.2.1
+
+ -- Frank Fuhlbrück <frank@fuhlbrueck.net>  Wed, 26 Feb 2014 20:40:00 +0200
+
+qt5-maemo5 (5.1.1+m01+thumb1) experimental; urgency=low
+
+  * style plugin included, use parameter "-style maemo5" to use it
+  * inside app use QApplication::setStyle("maemo5")
+  
+ -- Frank Fuhlbrück <frank@fuhlbrueck.net>  Mon, 05 Aug 2013 20:40:00 +0200
+ 
+qt5-maemo5 (5.1.1+m00+thumb1) experimental; urgency=low
+
+  * new modoule
+  * new upstream version
+  * thumb build
+  * scratchbox build
+
+ -- Frank Fuhlbrück <frank@fuhlbrueck.net>  Sat, 03 Aug 2013 20:40:00 +0200
+
+ 

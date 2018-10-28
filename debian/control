@@ -1,0 +1,31 @@
+Source: qt5-maemo5
+Priority: extra
+Maintainer:  Frank Fuhlbück <frank@fuhlbrueck.net>
+Build-Depends: debhelper (>= 5.0.0) 
+# libxcb1-dev,
+# x11proto-core-dev, x11proto-damage-dev, x11proto-fixes-dev,
+# x11proto-xext-dev, libx11-xcb-dev, libdbus-1-dev, libfreetype6-dev,
+# libglib2.0-dev, libgstreamer-plugins-base0.10-dev, libgstreamer0.10-dev,
+# libice-dev, libjpeg-dev, libpam0g-dev, libpng12-dev, libreadline-dev,
+# libsm-dev, libsqlite3-dev, libssl-dev, libx11-dev, libtiff4-dev, libxext-dev,
+# libxft-dev, libxi-dev, libxmu-dev, libxrandr-dev, libxrender-dev, libxslt1-dev,
+# libxt-dev, libxtst-dev, libxv-dev, rsync, zlib1g-dev, libudev-dev,
+# libgles2-sgx-img-dev, opengles-sgx-img-common-dev, libicu-dev, libasound2-dev,
+# pulseaudio-dev, pkg-config
+Standards-Version: 3.9.2
+Section: libs
+Homepage: http://www.qt-project.org
+
+Package: libqt5maemo5
+Section: libs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Qt Maemo5 module.
+ Styles and Widgets to match Hildon.
+
+Package: libqt5maemo5-dev 
+Section: libs
+Architecture: any
+Depends: libqt5x11extras5-dev, qtbase5-dev, ${misc:Depends}
+Description: Qt Maemo5 module - development files.
+ Contains includes etc. for qt5-maemo5.
